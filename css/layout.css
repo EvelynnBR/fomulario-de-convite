@@ -1,0 +1,9 @@
+#app{
+    display: grid;
+    grid-template-columns: 32.25% 67.74%;
+    padding: 1.25rem;
+    gap: 1.25rem;
+
+    height: 100dvh;
+}
+/* 32.25% 66.12% */
