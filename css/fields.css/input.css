@@ -1,0 +1,14 @@
+input,
+textarea{
+    width: 100%;
+    border: 1px solid var(--input-stroke);
+    background-color: var(--input-base);
+    font: var(--text-md-400);
+    color: var(--text-secondary);
+    padding: .8125rem 1rem;
+    border-radius: .5rem;
+}
+
+textarea{
+    height: 8.5rem;
+}
