@@ -26,7 +26,7 @@
     <body>
         <div id="app">
             <aside>
-                <img src="assets/Background.svg" alt="imagem de um bolo com uma vela">
+                <img class="bg" src="assets/Background.svg" alt="imagem de um bolo com uma vela">
                 <div class="aside-container">
                     <img src="assets/ico/Logo.svg" alt="icone de festa">
                     <h1>Festivite</h1>
@@ -34,7 +34,45 @@
                 </div>
             </aside>
             <main>
-            
+                <section class="main-container">
+                    <h1>Crie seu convite</h1>
+
+                    <form action="" method="get" enctype="multipart/form-data">
+                        <fieldset>
+                            <div class="sobre-evento">
+                                <img src="assets/ico/calendar.svg" alt="ícone de calendario">
+                                <legend>Sobre o evento</legend>
+                            </div>
+
+                            <label for="title">Título</label>
+                            <input type="text" name="title" id="title">
+
+                            <div class="horario">
+                                <label for="inicio">Início</label>
+                                <input type="datetime-local" name="inicio" id="inicio">
+
+                                <label for="fim">Fim</label>
+                                <input type="datetime-local" name="fim" id="fim">
+                            </div>
+
+                            <div class="tipo">
+                                <label for="tipo">Tipo</label>
+                                <input type="radio" name="tipo" id="tipo">
+                                <input type="radio" name="tipo" id="tipo">
+                            </div>
+                            <div class="local">
+                                <label for="local">Local</label>
+                                <input type="text" name="local" id="local">
+                            </div>
+
+                            <div class="textarea">
+                                <label for="descrition">Descrição</label>
+                                <textarea name="descrition" id="descrition" name="descrition"></textarea>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </section>
             </main>
         </div>
     </body>
