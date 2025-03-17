@@ -1,0 +1,6 @@
+fieldset{
+    display: grid;
+    gap: 1rem;
+    appearance: none;
+    border: none;
+}
