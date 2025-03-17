@@ -1,0 +1,27 @@
+@import url(fields.css/index.css);
+@import url(fields.css/input.css);
+@import url(fields.css/input-radio.css);
+main{
+    background-color: var(--bg-body);
+    border-radius: .75rem;
+    padding: 5rem;
+    height: 100dvh;
+    overflow: auto;
+}
+.main-container{
+    display: grid;
+    & h1{
+        font: var(--text-hd-md);
+        color: var(--text-primary);
+        margin-bottom: 2.5rem;
+    }
+
+    & label{
+        margin-bottom: .75rem;
+    }
+
+    & span{
+        font: var(--text-sm-400);
+        color: var(--text-secondary);
+    }
+}
