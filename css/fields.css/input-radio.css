@@ -1,0 +1,59 @@
+.radio-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    background-color: var(--input-base);
+    border-radius: .5rem;
+    border: 1px solid var(--input-stroke);
+    gap: .25rem;
+}
+
+.presencial, .online{
+    display: flex;
+    align-items: center;
+    padding: .75rem 1rem;
+    gap: .5rem;
+    margin: .25rem;
+
+    position: relative;
+
+    & input{
+        all: unset;
+        inset: 0;
+
+        position: absolute;
+    }
+
+}
+
+.presencial{
+    &:has(:checked){
+        background-color: var(--input-stroke);
+        border-radius: .5rem;
+
+        & svg path{
+            fill: var(--surface-light);
+        }
+        & span{
+            font: var(--text-sm-600);
+            color: var(--text-primary);
+        }
+    }
+}
+
+
+.online{
+    &:has(:checked){
+        background-color: var(--input-stroke);
+        border-radius: .5rem;
+
+        & svg path{
+            fill: var(--surface-light);
+        }
+
+        & span{
+            font: var(--text-sm-600);
+            color: var(--text-primary);
+        }
+    }
+}
