@@ -1,27 +1,39 @@
 :root{
-    /* Fontes utilizavel */
-    font-family:
-        "Leckerli One", cursive,
-        "Baloo 2", sans-serif,
-        "Open Sans";
-        
     /* fonte - Leckerli One */
-    --text-logo: 400 2.5rem/auto "Leckerli One", cursive;
+    --text-logo: 400 2.5rem/100% "Leckerli One", cursive;
 
     /* fonte - Baloo 2 */
-    --text-hd-md: 700 1.75rem/auto "Baloo 2", sans-serif;
-    --text-hd-sm: 700 1.125rem/auto "Baloo 2", sans-serif;
+    --text-hd-md: 700 1.75rem/100% "Baloo 2", sans-serif;
+    --text-hd-sm: 700 1.125rem/100% "Baloo 2", sans-serif;
 
     /* Fonte - Open Sans */
-    --text-md-400: 400 1rem/auto "Open Sans", sans-serif;
-    --text-md-600: 600 1rem/auto "Open Sans", sans-serif;
+    --text-md-300: 300 1rem/100% "Open Sans", sans-serif;
+    --text-md-400: 400 1rem/100% "Open Sans", sans-serif;
+    --text-md-600: 600 1rem/100% "Open Sans", sans-serif;
 
-    --text-sm-400: 400 0.875rem/auto "Open Sans", sans-serif;
-    --text-sm-600: 600 0.875rem/auto "Open Sans", sans-serif;
+    --text-sm-400: 400 0.875rem/100% "Open Sans", sans-serif;
+    --text-sm-600: 600 0.875rem/100% "Open Sans", sans-serif;
 
-    --text-xs-400: 400 0.75rem/auto "Open Sans", sans-serif;
-    --text-xs-600: 600 0.75rem/auto "Open Sans", sans-serif;
+    --text-xs-400: 400 0.75rem/100% "Open Sans", sans-serif;
+    --text-xs-600: 600 0.75rem/100% "Open Sans", sans-serif;
     
     /* Paleta de cores */
+    --text-color-logo: #FF598B;
+    --text-primary: #F9F9F9;
+    --text-secondary: #C8CDD0;
 
+    --background: #131516;
+    --bg-body: #212427;
+    --bg-btn: #2D3136;
+    --bg-btn-hover: #383D42;
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    --alert: #FF5959;
+
+    --surface-light: #59B2FF;
+    --surface-mid: #3487CF;
+    --surface-dark: #1D6FB6;
 }
