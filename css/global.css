@@ -5,8 +5,11 @@
 }
 
 body{
+    max-width: 78.75rem;
+    margin: auto;
     overflow: hidden;
     height: 100dvh;
+    background-color: var(--background);
 }
 
 img{
