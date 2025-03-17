@@ -7,6 +7,16 @@ main{
     padding: 5rem;
     height: 100dvh;
     overflow: auto;
+
+    &::-webkit-scrollbar{
+        background-color: var(--input-stroke);
+        border-radius: .25rem;
+        width: .5rem;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: var(--surface-light);
+        border-radius: .25rem;
+    }
 }
 .main-container{
     display: grid;
