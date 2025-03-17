@@ -4,9 +4,7 @@
         "Leckerli One", cursive,
         "Baloo 2", sans-serif,
         "Open Sans";
-
-    --text:
-
+        
     /* fonte - Leckerli One */
     --text-logo: 400 2.5rem/auto "Leckerli One", cursive;
 
@@ -25,8 +23,5 @@
     --text-xs-600: 600 0.75rem/auto "Open Sans", sans-serif;
     
     /* Paleta de cores */
-}
-h2{
-    font: var(--text-logo);
-    color: var(--text-color-logo);
+
 }
