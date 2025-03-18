@@ -1,6 +1,17 @@
 fieldset{
     display: grid;
     gap: 1rem;
-    appearance: none;
     border: none;
+
+    & legend{
+        font: var(--text-hd-sm);
+        color: var(--text-primary);
+    }
+
+    & .evento-wrapper{
+        display: flex;
+        gap: .75rem;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
 }
