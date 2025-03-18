@@ -16,11 +16,6 @@ img{
     max-width: 100%;
 }
 
-legend{
-    font: var(--text-hd-sm);
-    color: var(--text-primary);
-}
-
 label{
     display: block;
     font: var(--text-sm-400);
