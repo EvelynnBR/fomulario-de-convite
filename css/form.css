@@ -1,6 +1,7 @@
 @import url(fields.css/index.css);
 @import url(fields.css/input.css);
 @import url(fields.css/input-radio.css);
+@import url(fields.css/input-colors.css);
 main{
     background-color: var(--bg-body);
     border-radius: .75rem;
