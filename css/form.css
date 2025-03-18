@@ -23,7 +23,6 @@ main{
     & h1{
         font: var(--text-hd-md);
         color: var(--text-primary);
-        margin-bottom: 2.5rem;
     }
 
     & label{
