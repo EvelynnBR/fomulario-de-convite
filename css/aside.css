@@ -19,6 +19,7 @@ aside{
     & p{
         font: var(--text-md-300);
         color: var(--text-primary);
-        margin-top: 0.25rem;
+        margin-top: 0.75rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
 }
