@@ -40,8 +40,6 @@
         }
     }
 }
-
-
 .online{
     &:has(:checked){
         background-color: var(--input-stroke);
