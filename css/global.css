@@ -16,9 +16,15 @@ img{
     max-width: 100%;
 }
 
-.grid-auto{
+.grid-colors{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+    gap: .5rem;
+    margin-top: 1.2rem;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8.375rem, 1fr));
     gap: .75rem;
     margin-top: 1.2rem;
 }

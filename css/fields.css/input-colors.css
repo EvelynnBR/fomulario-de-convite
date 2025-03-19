@@ -80,3 +80,52 @@
         
     }
 }
+
+.card-radio{
+    display: grid;
+    justify-content: center;
+
+    & .img-card{
+        display: grid;
+        background-color: var(--bg-btn);
+        outline: 1px solid var(--input-stroke);
+        padding: .25rem;
+        border-radius: .5rem;
+        max-width: 100%;
+        gap: .5rem;
+        height: auto;
+        cursor: pointer;
+        justify-items: center;
+
+        position: relative;
+
+        & input,
+        & input:focus,
+        & input:hover{
+            all: unset;
+            inset: 0;
+            position: absolute;
+            z-index: 10;
+        }
+    }
+
+    & .img-card:hover{
+        outline: none;
+        background-color: var(--bg-btn-hover);
+    }
+
+    & .img-card:has(:checked){
+        outline: .125rem solid var(--surface-light);
+        background-color: var(--bg-btn);
+    }
+
+    & label{
+        text-align: center;
+        cursor: pointer;
+    }
+
+    & img{
+        border-radius: .25rem;
+        margin-top: .25rem;
+    }
+}
