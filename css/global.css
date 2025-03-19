@@ -16,6 +16,13 @@ img{
     max-width: 100%;
 }
 
+.grid-auto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+    gap: .75rem;
+    margin-top: 1.2rem;
+}
+
 label{
     display: block;
     font: var(--text-sm-400);
