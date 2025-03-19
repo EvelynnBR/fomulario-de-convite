@@ -1,8 +1,4 @@
 .colors-radio{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
-    gap: .75rem;
-    margin-top: 1.2rem;
     
     & .colors{
 
