@@ -38,7 +38,7 @@
                     <h1>Crie seu convite</h1>
 
                     <form action="" method="get" enctype="multipart/form-data">
-                        <fieldset class="sobre-evento">
+                        <!-- <fieldset class="sobre-evento">
 
                             <div class="evento-wrapper">
                                 <img src="assets/ico/calendar.svg" alt="ícone de calendario">
@@ -154,7 +154,7 @@
                                 </div>
                             </div>
 
-                        </fieldset>
+                        </fieldset> -->
 
                         <fieldset class="personalizacao">
 
@@ -251,10 +251,10 @@
                                 </div>
                             </div>
 
-                            <div class="card-container">
+                            <!-- <div class="card-container">
                                 <label>Tema do evento</label>
 
-                                <div class="card-radio grid-cards">
+                                <div class="card-radio grid-cards-perso">
                                     <div class="img-card">
                                         <img src="assets/Image.svg" alt=" Foto de bolo de Aniversário">
                                         <input
@@ -267,8 +267,8 @@
                                         <img src="assets/Image (1).svg" alt="foto de festa Infantil">
                                         <input
                                         type="radio" name="cards"
-                                        value="Infantil" id="cards" required>
-                                        <label>Aniversário</label>
+                                        value="infantil" id="cards" required>
+                                        <label>Infantil</label>
                                     </div>
 
                                     <div class="img-card">
@@ -355,7 +355,38 @@
                                     <img src="assets/ico/circle-alert.svg" alt="simbolo de alerta">
                                     <span>Escolha um tema</span>
                                 </div>
+                            </div> -->
+                            
+                            <div class="style-photo">
+                                <div class="style-mode">
+                                    <label>Estilo</label>
+                                    <div class="style-wrapper">
+                                        <div id="body-target">
+                                            <span></span>
+                                        </div>
+                                        <label class="dark">Escuro</label>
+                                        <label class="light">CLaro</label>
+                                    </div>
+                                </div>
+                                <div class="file-photo">
+                                    <label>Foto de capa</label>
+                                    <div class="file">
+
+                                        <div class="file-click">
+                                            <img src="assets/ico/upload.svg" alt="ícone de upload">
+                                            <label for="file">Selecionar</label for="file">   
+                                        </div>
+
+                                        <input type="file" name="file" id="file" required>
+                                        <label for="file">Nenhum arquivo selecionado</label>
+                                    </div>
+                                    <div class="error-message">
+                                        <img src="assets/ico/circle-alert.svg" alt="simbolo de alerta">
+                                        <span>Falha ao Selecionar imagemm</span>
+                                    </div>
+                                </div>
                             </div>
+
                         </fieldset>
                     </form>
                 </section>

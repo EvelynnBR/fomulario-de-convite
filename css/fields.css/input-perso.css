@@ -129,3 +129,40 @@
         margin-top: .25rem;
     }
 }
+
+.style-photo{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+    & .style-wrapper{
+        display: flex;
+        gap: .75rem;
+
+        & #body-target{
+            display: flex;
+            align-items: center;
+            padding: .25rem;
+            width: 4rem;
+            background-color: var(--input-base);
+            border: 1px solid var(--input-stroke);
+            border-radius: 62.43rem;
+
+            span{
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: 50%;
+                background-color: var(--input-stroke);
+            }
+        }
+        .dark, .light{
+            margin-block: auto;
+            padding-right: 3.5rem;
+        }
+
+        .light{
+            display: none;
+        }
+    }
+
+}
