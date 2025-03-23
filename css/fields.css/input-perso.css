@@ -132,8 +132,11 @@
 
 .style-photo{
     display: flex;
+    justify-content: space-between;
     gap: 1rem;
     width: 100%;
+
+    margin-top: 1.75rem;
 
     & .style-wrapper{
         display: flex;
@@ -157,7 +160,6 @@
         }
         .dark, .light{
             margin-block: auto;
-            padding-right: 3.5rem;
         }
 
         .light{
@@ -165,4 +167,51 @@
         }
     }
 
+    .file{
+        display: flex;
+        gap: .75rem;
+
+        position: relative;
+
+        & input{
+            all: unset;
+            inset: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+
+            position: absolute;
+        }
+
+        & .file-btn{
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+
+            & .file-upload{
+                display: flex;
+                gap: .5rem;
+                align-items: center;
+                background-color: var(--bg-btn);
+                border-radius: 999px;
+                padding: .75rem;
+            }
+
+            & .file-upload label{
+                margin-bottom: -.5px;
+                font: var(--text-sm-600);
+                color: var(--text-primary);
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            label{
+                margin-bottom: -.5px;
+                font:  var(--text-md-400);
+            }
+        }
+    }
 }

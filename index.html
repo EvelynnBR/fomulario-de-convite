@@ -38,7 +38,7 @@
                     <h1>Crie seu convite</h1>
 
                     <form action="" method="get" enctype="multipart/form-data">
-                        <!-- <fieldset class="sobre-evento">
+                        <fieldset class="sobre-evento">
 
                             <div class="evento-wrapper">
                                 <img src="assets/ico/calendar.svg" alt="ícone de calendario">
@@ -154,7 +154,7 @@
                                 </div>
                             </div>
 
-                        </fieldset> -->
+                        </fieldset>
 
                         <fieldset class="personalizacao">
 
@@ -251,7 +251,7 @@
                                 </div>
                             </div>
 
-                            <!-- <div class="card-container">
+                            <div class="card-container">
                                 <label>Tema do evento</label>
 
                                 <div class="card-radio grid-cards-perso">
@@ -355,7 +355,7 @@
                                     <img src="assets/ico/circle-alert.svg" alt="simbolo de alerta">
                                     <span>Escolha um tema</span>
                                 </div>
-                            </div> -->
+                            </div>
                             
                             <div class="style-photo">
                                 <div class="style-mode">
@@ -371,14 +371,17 @@
                                 <div class="file-photo">
                                     <label>Foto de capa</label>
                                     <div class="file">
+                                        <input type="file" name="file" id="file" required>
 
-                                        <div class="file-click">
-                                            <img src="assets/ico/upload.svg" alt="ícone de upload">
-                                            <label for="file">Selecionar</label for="file">   
+                                        <div class="file-btn">
+                                            <div class="file-upload">
+                                                <img src="assets/ico/upload.svg" alt="ícone de upload">
+                                                <label>Selecionar</label for="file">
+                                            </div>
+
+                                            <label for="file"  id="file">Nenhum arquivo selecionado</label>
                                         </div>
 
-                                        <input type="file" name="file" id="file" required>
-                                        <label for="file">Nenhum arquivo selecionado</label>
                                     </div>
                                     <div class="error-message">
                                         <img src="assets/ico/circle-alert.svg" alt="simbolo de alerta">
