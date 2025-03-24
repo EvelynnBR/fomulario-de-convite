@@ -35,3 +35,14 @@ main{
         color: var(--text-secondary);
     }
 }
+
+button{
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    gap: .75rem;
+    padding: .875rem 1.25rem;
+    background-color: var(--surface-dark);
+    border: none;
+    border-radius: .5rem;
+}
