@@ -2,9 +2,11 @@
 @import url(fields.css/input.css);
 @import url(fields.css/input-radio.css);
 @import url(fields.css/input-perso.css);
+
 main{
     background-color: var(--bg-body);
     border-radius: .75rem;
+    max-width: 100%;
     padding: 5rem;
     height: 100dvh;
     overflow: auto;

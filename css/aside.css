@@ -3,23 +3,23 @@ aside{
     & .bg{
         border-radius: .75rem;
     }
+    max-width: 100%;
 }
 
 .aside-container{
     display: grid;
     position: absolute;
+    max-width: 100%;
     top: 2rem;
     left: 2rem;
 
-    & h1{
-        font: var(--text-logo);
-        color: var(--text-color-logo);
+    & img{
         margin-top: 1rem;
+        max-width: 100%;
     }
     & p{
         font: var(--text-md-300);
         color: var(--text-primary);
         margin-top: 0.75rem;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
 }

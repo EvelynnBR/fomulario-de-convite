@@ -1,6 +1,6 @@
 :root{
     /* fonte - Leckerli One */
-    --text-logo: 400 2.5rem/100% "Leckerli One", cursive;
+    --text-logo: 400 2.5rem/auto "Leckerli One", cursive;
 
     /* fonte - Baloo 2 */
     --text-hd-md: 700 1.75rem/100% "Baloo 2", sans-serif;
