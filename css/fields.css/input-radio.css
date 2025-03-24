@@ -25,6 +25,11 @@
         position: absolute;
     }
 
+    input:focus{
+        outline: 1px solid var(--surface-light);
+        border-radius: .5rem;
+    }
+
 }
 
 .presencial{
@@ -41,6 +46,7 @@
         }
     }
 }
+
 .online{
     &:has(:checked){
         background-color: var(--input-stroke);

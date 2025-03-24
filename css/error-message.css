@@ -1,0 +1,53 @@
+.error-message{
+    display: none;
+    margin-top: .5rem;
+    gap: .5rem;
+    align-items: center;
+
+    span{
+        font: var(--text-xs-400);
+        color: var(--alert);
+    }
+}
+
+
+
+.main-container{
+    /* mostra a mensagem de erro */
+    input:invalid
+    + .error-message,
+    textarea:invalid
+    + .error-message{
+        display: flex;
+    }
+
+    /* mostra a borda */
+    input[type="text"]:invalid,
+    input[type="datetime-local"]:invalid,
+    textarea:invalid,
+    input[type="email"]:invalid,
+    input[type="number"]:invalid{
+        outline: 1px solid var(--alert);
+    }
+
+
+    /* mostra mensagem e bordade erro - tipo */
+    .tipo:has(input[type="radio"]:invalid) .error-message{
+        display: flex;
+    }
+
+    /* mostra mensagem e bordade erro - cores */
+    .colors-container:has(input[type="radio"]:invalid) .error-message{
+        display: flex;
+    }
+
+    /* mostra mensagem e bordade erro - cards */
+    .card-container:has(input[type="radio"]:invalid) .error-message{
+        display: flex;
+    }
+
+    /* mostra mensagem e bordade erro - file */
+    .file-photo:has(input[type="file"]:invalid) .error-message{
+        display: flex;
+    }
+}
